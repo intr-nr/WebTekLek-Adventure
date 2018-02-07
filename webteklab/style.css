@@ -1,0 +1,133 @@
+.body{
+	 background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-color:#000;
+}
+
+
+a{
+	color: #2C383B;
+}
+p{
+	color:white;
+	font-size:20;
+	line-height: 180%;
+	text-align: center;
+	
+}
+
+#nav {
+		position: relative;
+		padding:2;
+		height:5%;
+		left: 0;
+	}
+	
+#nav ul {
+		text-align: right;
+	}
+	
+#nav li {
+		display: inline-block;
+	}
+	
+#nav a {
+		display: block;
+		padding: 1em 2em;
+		letter-spacing: 2px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+		color:#FFF;
+}
+	
+	
+	#header-wrapper{
+		background-color: black;
+		background-size: cover;
+		position: relative;
+	}
+	
+#header{
+		margin-bottom: 3em;
+	}
+	
+
+#header-featured{
+	height: 25em;
+	background-image: url(PIC/Inclusion.jpg) ;
+	background-position: center;
+	background-size: cover;
+}
+#header-featured h1{
+	font-size: 70;
+	text-align: center;
+	padding: 2em 0em 2em 0em;
+}
+
+
+#featured-wrapper{
+	overflow: hidden;
+	background: #222222;
+}
+
+
+#featured h2{
+	text-align: center;
+	color: #7FFFD4;
+}
+.container{
+	margin: 0px auto;
+	width: 1200px;
+}
+.column1,  .column2,  .column3{
+	width: 360px;
+	
+}
+
+.column1,  .column2{
+	float: left;
+	margin-right: 60px;
+}
+
+.column3{
+	float: left;
+}
+#extra{
+	overflow: hidden;
+	margin: 0em auto 0em auto;
+	padding: 1em 0em 1em 0em;
+	text-align: center;
+	
+}
+#copyright{
+	overflow: hidden;
+	margin: 0em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
+	text-align: center;
+	color: black;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000;
+   color: white;
+   text-align: center;
+}
+
+#header-featured2{
+	height: 25em;
+	background-image: url(PIC/i1.jpg) ;
+	background-position: center;
+	background-size: cover;
+}
+#header-featured2 h1{
+	font-size: 70;
+	text-align: center;
+	padding: 2em 0em 2em 0em;
+}
+
+span{
+	color:  #7FFFD4;
+}
